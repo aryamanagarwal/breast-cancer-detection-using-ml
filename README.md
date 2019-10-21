@@ -2,17 +2,17 @@
 Detecting Breast Cancer using Standard Vector Machine and K Nearest Neighbor models
 The dataset used has been imported from : https://archive.ics.uci.edu/ml/machine-learning-databases/breast-cancer-wisconsin/breast-cancer-wisconsin.data
 A total of 11 columns exist in the dataset namely :
-id                         int64
-clump_thickness            int64
-uniform_cell_size          int64
-uniform_cell_shape         int64
-marginal_adhesion          int64
-single_epithelial_size     int64
-bare_nuclei               object
-band_chromatin             int64
-normal_nucleoli            int64
-mitoses                    int64
-class                      int64
+1. id                         int64
+2. clump_thickness            int64
+3. uniform_cell_size          int64
+4. uniform_cell_shape         int64
+5. marginal_adhesion          int64
+6. single_epithelial_size     int64
+7. bare_nuclei               object
+8. band_chromatin             int64
+9. normal_nucleoli            int64
+10. mitoses                    int64
+11. class                      int64
 Out of this 'id' column does not have any corelation with the classification so it has been removed
 Also column 'bare_nuclei' was left out while training the model due to lot of missing values.
 
