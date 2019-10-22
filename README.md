@@ -24,6 +24,7 @@ After this we evaulate the models(SVM,KNN) on training data using KFold and meas
 On evaluation accuracy obtained were:
 1. KNN: 0.964286 
 2. SVM: 0.953571
+
 After this the model was trained on the training data and the predictions were made on the testing data.
 Following accuracy score and classifiaction report was obtained.(Results might slightly vary on different runs.)<br>
 KNN
