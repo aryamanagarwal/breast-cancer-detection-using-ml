@@ -21,9 +21,9 @@ The column 'class' is indicative of whether the person has cancerous cell or not
 After that we divide the dataframe into X and Y. X containing the 8 attributes taken into consideration and Y containg the class value.<br>
 After this we split the data into training and testing set.<br>
 After this we evaulate the models(SVM,KNN) on training data using KFold and measuring the score using accuracy.<br>
-On evaluation accuracy obtained were:<br> 
+On evaluation accuracy obtained were:
 1. KNN: 0.964286 
-2. SVM: 0.953571<br>
+2. SVM: 0.953571
 After this the model was trained on the training data and the predictions were made on the testing data.
 Following accuracy score and classifiaction report was obtained.(Results might slightly vary on different runs.)<br>
 KNN
