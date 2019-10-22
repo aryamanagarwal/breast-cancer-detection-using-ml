@@ -18,14 +18,14 @@ Also column 'bare_nuclei' was left out while training the model due to lot of mi
 <br>
 The column 'class' is indicative of whether the person has cancerous cell or not, class = 2 implies beningn(not cancerous) and class = 4 implies malignant (cancerous).
 <br>
-After that we divide the dataframe into X and Y. X containing the 8 attributes taken into consideration and Y containg the class value.
-After this we split the data into training and testing set.
+After that we divide the dataframe into X and Y. X containing the 8 attributes taken into consideration and Y containg the class value.<br>
+After this we split the data into training and testing set.<br>
 After this we evaulate the models(SVM,KNN) on training data using KFold and measuring the score using accuracy.<br>
 On evaluation accuracy obtained were:<br> 
 1. KNN: 0.964286 
-2. SVM: 0.953571
+2. SVM: 0.953571<br>
 After this the model was trained on the training data and the predictions were made on the testing data.
-Following accuracy score and classifiaction report was obtained.(Results might slightly vary on different runs.)
+Following accuracy score and classifiaction report was obtained.(Results might slightly vary on different runs.)<br>
 KNN
 0.9642857142857143
               precision    recall  f1-score   support
