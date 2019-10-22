@@ -41,7 +41,7 @@ weighted avg       0.97      0.96      0.96       140
 ```
 The recall value of 0.96 tells that out of the total pateints classified as bening, 4% infact had malignant cancerous cell.
 The precision value of 0.92 tells us that out of the total malignant predictions made only 92% were true.
-
+```
 SVM
 0.95
               precision    recall  f1-score   support
@@ -52,5 +52,6 @@ SVM
     accuracy                           0.95       140
    macro avg       0.94      0.96      0.95       140
 weighted avg       0.96      0.95      0.95       140
+```
 The recall value of 0.92 tells that out of the total pateints classified as bening 8% infact had malignant cancerous cell.
 The precision value of 0.88 tells us that out of the total malignant predictions made only 88% were true.
