@@ -27,6 +27,7 @@ On evaluation accuracy obtained were:
 
 After this the model was trained on the training data and the predictions were made on the testing data.
 Following accuracy score and classifiaction report was obtained.(Results might slightly vary on different runs.)<br>
+'''
 KNN
 0.9642857142857143
               precision    recall  f1-score   support
@@ -37,6 +38,7 @@ KNN
     accuracy                           0.96       140
    macro avg       0.96      0.97      0.96       140
 weighted avg       0.97      0.96      0.96       140
+'''
 The recall value of 0.96 tells that out of the total pateints classified as bening, 4% infact had malignant cancerous cell.
 The precision value of 0.92 tells us that out of the total malignant predictions made only 92% were true.
 
