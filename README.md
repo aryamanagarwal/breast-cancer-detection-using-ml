@@ -12,9 +12,9 @@ A total of 11 columns exist in the dataset namely :
 8. band_chromatin             int64
 9. normal_nucleoli            int64
 10. mitoses                    int64
-11. class                      int64<br>
-Out of this 'id' column does not have any corelation with the classification so it has been removed
-Also column 'bare_nuclei' was left out while training the model due to lot of missing values.
+11. class                      int64
+<br>
+Out of this 'id' column does not have any corelation with the classification so it has been removed. Also column 'bare_nuclei' was left out while training the model due to lot of missing values.
 <br>
 The column 'class' is indicative of whether the person has cancerous cell or not, class = 2 implies beningn(not cancerous) and class = 4 implies malignant (cancerous).
 <br>
